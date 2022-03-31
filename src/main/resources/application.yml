@@ -37,7 +37,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, health, beans, info #refresh는 동작하지 않음.
+        include: refresh, health, beans
 
 #token:
 #  expiration_time: 86400000
